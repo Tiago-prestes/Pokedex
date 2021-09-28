@@ -21,7 +21,10 @@ const GlobalState = (props) => {
             .then((res) => {
                 newList.push(res.data)
                 if (newList.length === 20) {
-                    setPokemons(newList)
+                    const orderList = newList.sort((a, b) => {
+                        return a.id - b.id
+                    })
+                    setPokemons(orderList)
                 }
             })
             .catch((error) => {

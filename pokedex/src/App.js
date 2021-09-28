@@ -5,7 +5,7 @@ import Router from "./routes/Router";
 function App() {
   return (
     <GlobalState>
-       <Router/>
+      <Router />
     </GlobalState>
    
   );
