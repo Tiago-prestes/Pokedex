@@ -2,22 +2,19 @@ import React, { useContext } from "react"
 import Header from "../../components/Header/Header"
 import PokemonCard from "../../components/PokemonCard/PokemonCard"
 import GlobalStateContext from "../../global/GlobalStateContext"
+import { GridContainer } from "./styled"
 
 const PokemonListScreen = () => {
     const {pokemons} = useContext(GlobalStateContext)
 
     return (
-        <div>
-            <Header/>
-            { pokemons.map(( id, name ) => {
-                    return <PokemonCard key={id}
-                            name={name}
-                            // sprites={}
+        <GridContainer>
+            { pokemons.map(( poke ) => {
+                    return <PokemonCard key={poke.id} pokemon={poke}
                     />
                 })
             }
-            PokemonListScreen
-        </div>
+        </GridContainer>
     )
 }
 
