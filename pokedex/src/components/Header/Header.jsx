@@ -1,6 +1,6 @@
-import React from "react"
+import React, { useState } from "react"
 import { useHistory } from "react-router-dom"
-import { goToPokemonListScreen } from "../../routes/coordinator"
+import { goToPokedex, goToPokemonListScreen } from "../../routes/coordinator"
 import { Title, GeneralContainer, Button } from "./styled"
 
 
@@ -9,19 +9,19 @@ const Header = () => {
     // const [screen, setScreen] = useState(true)
 
     // const changeScreen = () => {
-    //     if(screen === name) {
+    //     if(screen === false) {
     //         setScreen(false)
-    //         goToPokemonListScreen()
+    //         goToPokemonListScreen(history)
     //     } else {
     //         setScreen(true)
-    //         goToPokedex()
+    //         goToPokedex(history)
     //     }
     // }
 
     return (
         <GeneralContainer>
-            <Title><img src='https://cdn2.bulbagarden.net/upload/4/4b/Pok%C3%A9dex_logo.png'></img></Title>
-            <Button onClick={() => goToPokemonListScreen(history)}>"Back to PokemonList"</Button>
+            <Title onClick={() => goToPokemonListScreen(history)}><img src='https://cdn2.bulbagarden.net/upload/4/4b/Pok%C3%A9dex_logo.png'></img></Title>
+            <Button onClick={() => goToPokedex(history)}>Ir para pokedex</Button>
         </GeneralContainer>
     )
 }

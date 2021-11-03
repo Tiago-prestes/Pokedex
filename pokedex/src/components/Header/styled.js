@@ -6,7 +6,7 @@ export const GeneralContainer = styled.div`
     background-color: red;
     align-items: center;
     justify-content: space-evenly;
-    box-shadow: 0px 11px 4px 0px #000000;
+    border-bottom: 8px solid black;
 `
 
 export const Button = styled.button`

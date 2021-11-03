@@ -1,5 +1,3 @@
-
-
 export const goToPokemonListScreen = (history) => {
     history.push("/")
 }
