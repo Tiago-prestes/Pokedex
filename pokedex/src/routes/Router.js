@@ -9,7 +9,6 @@ const Router = () => {
   return (
       <BrowserRouter>
               <Header />
-
         <Switch>
             <Route exact path={"/"} component={PokemonListScreen}/>
             <Route exact path={"/pokemon/:name"} component={PokemonDetailScreen}/>
