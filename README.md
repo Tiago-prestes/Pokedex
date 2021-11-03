@@ -1,11 +1,5 @@
 # Pokedex
-<div align="center" id="top"> 
-  <img src="https://w7.pngwing.com/pngs/363/696/png-transparent-pokemon-go-computer-icons-psyduck-pokemon-go.png" alt="Pokedex" />
 
-  &#xa0;
-
-  <!-- <a href="https://pokedex.netlify.app">Demo</a> -->
-</div>
 
 <h1 align="center">Pokedex</h1>
 
