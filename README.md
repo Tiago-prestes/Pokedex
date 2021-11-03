@@ -28,7 +28,7 @@ Utiliza a api https://pokeapi.co/api/v2, criei um app para adicionar e remover p
 ## :sparkles: Features ##
 
 :heavy_check_mark: Feature 1;\ Adicionar e remover na pokedex
-:heavy_check_mark: Feature 2;\ Ver detalhes de pokemons
+:heavy_check_mark: Feature 2; Ver detalhes de pokemons
 
 ## :rocket: Technologies ##
 
