@@ -1,6 +1,6 @@
 # Pokedex
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Pokedex" />
+  <img src="https://w7.pngwing.com/pngs/363/696/png-transparent-pokemon-go-computer-icons-psyduck-pokemon-go.png" alt="Pokedex" />
 
   &#xa0;
 
